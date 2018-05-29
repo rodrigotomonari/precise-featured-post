@@ -1,0 +1,24 @@
+.precise_featured_post_star {
+    cursor: pointer;
+    width: 37px;
+    height: 36px;
+    background: url("../img/star.png") 0 bottom;
+}
+
+.precise_featured_post_star.precise_featured_post_checked {
+    background-position: 0 top;
+}
+
+.fixed .column-precise_featured_post_column_blog {
+    width: 10%;
+}
+
+.fixed .column-precise_featured_post_column_home {
+    width: 10%;
+}
+
+@media screen and (max-width:782px){
+    .fixed [class*="column-precise_featured_post_column"] {
+        display:none;
+    }
+}
